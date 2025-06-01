@@ -1,0 +1,65 @@
+/* Container for the entire chat interface */
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Scrollable area for chat messages */
+.chat-scroll-area {
+    max-height: 70vh;    /* Limits height to 70% of viewport */
+    overflow-y: auto;    /* Enables vertical scrolling */
+    padding-right: 10px;
+    margin-bottom: 1rem;
+}
+
+/* Base style for all chat bubbles */
+.chat-bubble {
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 12px;
+    max-width: 80%;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+/* Styling for user messages */
+.user {
+    background-color: #e0f7da;  /* Light green */
+    margin-left: auto;            /* Align to right */
+    text-align: right;
+    float: right;
+    clear: both;
+}
+
+/* Styling for assistant messages */
+.assistant {
+    background-color: #f1f1f1;  /* Light gray */
+    margin-right: auto;           /* Align to left */
+    float: left;
+    clear: both;
+    display: flex;                /* To align message and icon */
+    align-items: flex-start;
+}
+
+/* Container for assistant message text */
+.assistant-message {
+    flex: 1;
+}
+
+/* Profile icon next to assistant messages */
+.chat-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+/* Sticky input box at the bottom of the page */
+.chat-input {
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+    position: sticky;
+    bottom: 0;
+}

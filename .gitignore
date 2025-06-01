@@ -1,0 +1,19 @@
+# Ignore sensitive config
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Chroma DB (runtime-generated)
+chroma_db/
+
+# Ignore Jupyter checkpoint folders
+.ipynb_checkpoints/
+
+# Keep data folder but ignore its contents
+data/*
+!data/.gitkeep
+
+# macOS system file
+.DS_Store
