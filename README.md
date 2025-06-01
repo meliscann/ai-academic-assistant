@@ -52,7 +52,7 @@ AcademicAssistant/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-academic-assistant.git
+git clone https://github.com/meliscann/ai-academic-assistant.git
 cd ai-academic-assistant
 ```
 
